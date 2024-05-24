@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "862718995132",
+    "project_id": "minimal-fitness-app",
+    "storage_bucket": "minimal-fitness-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:862718995132:android:9356253836e1e450ad7eb9",
+        "android_client_info": {
+          "package_name": "com.example.minimal_fitness_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCd3ngz48BmxHkkSVWp-o2VptU8T1xdk7Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
