@@ -1,5 +1,7 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
 
 class MyDrawer extends StatelessWidget {
   const MyDrawer({super.key});
@@ -45,6 +47,75 @@ class MyDrawer extends StatelessWidget {
             ),
           ),
           const SizedBox(height: 25),
+
+          Padding(
+            padding: const EdgeInsets.only(left: 25.0),
+            child: ListTile(
+              leading: Icon(
+                Icons.fitness_center, 
+                color: Theme.of(context).colorScheme.inversePrimary,
+              ),
+              title: const Text("T R A C K"),
+              onTap: () {
+                Navigator.pop(context);
+                //navigate to Profile page
+                Navigator.pushNamed(context, "/track_workout_page");
+              }
+            ),
+          ),
+          const SizedBox(height: 25),
+
+          // Padding(
+          //   padding: const EdgeInsets.only(left: 25.0),
+          //   child: ListTile(
+          //     leading: Icon(
+          //       Icons.run_circle, 
+          //       color: Theme.of(context).colorScheme.inversePrimary,
+          //     ),
+          //     title: const Text("R U N"),
+          //     onTap: () {
+          //       Navigator.pop(context);
+          //       //navigate to Profile page
+          //       Navigator.pushNamed(context, "/");
+          //     }
+          //   ),
+          // ),
+          // const SizedBox(height: 25),
+
+          // Padding(
+          //   padding: const EdgeInsets.only(left: 25.0),
+          //   child: ListTile(
+          //     leading: Icon(
+          //       Icons.timeline, 
+          //       color: Theme.of(context).colorScheme.inversePrimary,
+          //     ),
+          //     title: const Text("P E R F O M A N C E"),
+          //     onTap: () {
+          //       Navigator.pop(context);
+          //       //navigate to Profile page
+          //       Navigator.pushNamed(context, "/");
+          //     }
+          //   ),
+          // ),
+          // const SizedBox(height: 25),
+
+          // Padding(
+          //   padding: const EdgeInsets.only(left: 25.0),
+          //   child: ListTile(
+          //     leading: FaIcon(
+          //       MdiIcons.yoga,
+          //       color: Theme.of(context).colorScheme.inversePrimary, 
+          //     ),
+          //     title: const Text("S T R E T C H"),
+          //     onTap: () {
+          //       Navigator.pop(context);
+          //       //navigate to Profile page
+          //       Navigator.pushNamed(context, "/");
+          //     }
+          //   ),
+          // ),
+          // const SizedBox(height: 25),
+          
           
           //profile tile
           Padding(

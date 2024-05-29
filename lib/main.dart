@@ -5,6 +5,7 @@ import 'package:minimal_fitness_app/auth/login_or_register.dart';
 import 'package:minimal_fitness_app/firebase_options.dart';
 import 'package:minimal_fitness_app/pages/home_page.dart';
 import 'package:minimal_fitness_app/pages/profile_page.dart';
+import 'package:minimal_fitness_app/pages/track_workout_page.dart';
 import 'package:minimal_fitness_app/pages/users_page.dart';
 import 'package:minimal_fitness_app/theme/dark_mode.dart';
 import 'package:minimal_fitness_app/theme/light_mode.dart';
@@ -31,6 +32,7 @@ class MainApp extends StatelessWidget {
         "/home_page":(context) => HomePage(),
         "/profile_page":(context) => ProfilePage(),
         "/users_page":(context) => const UsersPage(),
+        "/track_workout_page":(context) => TrackWorkoutPage(),
       },
     );
   }

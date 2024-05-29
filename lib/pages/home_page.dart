@@ -42,7 +42,7 @@ class HomePage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text(
-          "T R A C K",
+          "H O M E",
           style: TextStyle(
             color: Theme.of(context).colorScheme.primary, // Change this to the desired text color
           ),         
@@ -129,7 +129,7 @@ class HomePage extends StatelessWidget {
                   )
                 );
               }
-            ),      
+            ),   
           ],
         ),
       ),
